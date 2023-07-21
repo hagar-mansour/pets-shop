@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pets Shop</title>
+
+</head>
+<body>
+
+    <span  class="top"><i class="fa-solid fa-arrow-up"></i></span>
+    <!--start navbar -->
+    <nav  id="navbar">
+        <div class="container">
+<h2><img src="images/Logo.png" alt="">pets  shop</h2>
+<div class="nav-links">
+    <a href="#" class="active">Home</a>
+    <a href="about.html">About</a>
+    <a href="#">Serices</a>
+    <a href="#">Pricing</a>
+    <a href="contact.html">Contact</a>
+</div>
+        </div>
+        </nav>
+<!-- end navbar-->
+        <!--start header -->
+        <div id="header">
+            <div  class="slider"  >
+                <div class="img-box">
+            <img src="images/header1.jpg" class="slider-img"  name="slide"  alt="">
+            </div>
+            <button   onclick="prev()"  id="pre"><</button>
+            <button   onclick="next()"  id="next">></button>
+            <div class="clr"></div>
+            </div>
+        </div>
+    <!-- end header-->
+<!-- products section-->
+<section id="products-links">
+    <a onclick="CatSection()"  href="#cats-items">Cats</a>
+    <a onclick="DogSection()" href="#dog-items">Dogs</a>
+    <a  onclick="BirdSection()" href="#bird-items">Birds</a>
+</section>
+
+<section id="cats-items">
+<div    id="item" class="item">
+        <img src="images/4.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, animi.</p>
+    <button onclick="addCounter()" id="cart">Add to cart </button>
+</div>
+<div   id="item"  class="item">
+        <img src="images/5.webp" alt="">
+        <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, animi.</p>
+    <button onclick="addCounter()" id="cart">Add to cart </button>
+</div>
+<div     id="item" class="item">
+        <img src="images/4.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, animi.</p>
+    <button   onclick="addCounter()"  id="cart">Add to cart </button>
+</div>
+</section>
+
+<section id="dog-items">
+    <div    id="item" class="item">
+        <img src="images/dog1.webp" alt="">
+        <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, animi.</p>
+    <button id="cart">Add to cart </button>
+</div>
+<div    id="item" class="item">
+    <img src="images/2.jpg" alt="">
+    <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, animi.</p>
+<button id="cart">Add to cart </button>
+</div>
+<div    id="item" class="item">
+    <img src="images/dog1.webp" alt="">
+    <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, animi.</p>
+<button id="cart">Add to cart </button>
+</div>
+</section>
+
+<section id="bird-items">
+    <div    id="item" class="item">
+        <img src="images/bird1.jpeg" alt="">
+        <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, animi.</p>
+    <button id="cart">Add to cart </button>
+</div>
+<div    id="item" class="item">
+    <img src="images/bird2.jpeg" alt="">
+    <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, animi.</p>
+<button id="cart">Add to cart </button>
+</div>
+<div    id="item" class="item">
+    <img src="images/bird3.lpeg.jpeg" alt="">
+    <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, animi.</p>
+<button id="cart">Add to cart </button>
+</div>
+</section>
+
+
+<div id="cartCounter">Cart  Items=  </div>
+
+
+
+<!-- footer -->
+
+<footer id="footer1">
+    <div class="list1">
+        <h2>get in  touch</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sequi praesentium et quos pariatur ab!</p>
+                    <i class="fa-solid fa-location-dot"><span>123,Street,Cairo,Egypt</span></i>
+                    <i class="fa-regular fa-envelope"><span>hagar@gmail.com</span></i>
+                    <i class="fa-solid fa-phone"><span>+01012469861</span></i>
+                </div>
+                    <div class="list2">
+                        <h2>quick   links</h2>
+                        <a  href="#"><i class="fa-solid fa-right-long"></i>   home</a>
+                        <a  href="#">   <i class="fa-solid fa-right-long"></i>Blog</a>
+                        <a  href="#"> <i class="fa-solid fa-right-long"></i>  Contact us   </a>
+                        <a  href="#">  <i class="fa-solid fa-right-long"></i> About us </a>
+                        <a  href="#">  <i class="fa-solid fa-right-long"></i> About us </a>
+                        <a  href="#">  <i class="fa-solid fa-right-long"></i> About us </a>
+                    </div>
+                    <div class="list3">
+                        <h2>newsletter</h2>
+                        <input type="email"  placeholder="Your  Email"    name="" id=""><input type="button" value="sign  up">
+                        <h3>FOLLOW US</h3>
+                        
+                          <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                      <i class="fa-brands fa-youtube"></i>
+     </div>
+</footer>
+
+
+
+       
+        <footer id="footer2">
+            &copy;<span>ITI-JS-PROJECT</span>.All Rights  Reserved.
+        </footer>
+<script src="js/index.js"></script>
+</body>
+</html>
+<!--  <footer>
+            <div class="footer-content">
+                <div class="footer-list">
+                    <h4>Quick   links</h4>
+                    <ul>
+                        <i class="fa-solid fa-arrow-right"></i><li> Jobs</li>
+                        <li>Brand   assots</li>
+                        <li>Investor rotation   </li>
+                        <li>Terms   of  services</li>
+                    </ul>
+                </div>
+                <div class="footer-list">
+                    <h4>Features</h4>
+                    <ul>
+                        <li>Jobs</li>
+                        <li>Brand   assots</li>
+                        <li>Investor rotation   </li>
+                        <li>Terms   of  services</li>
+                    </ul>
+                </div>
+                <div class="footer-list">
+                    <h4>resources</h4>
+                    <ul>
+                        <li>Jobs</li>
+                        <li>Brand   assots</li>
+                        <li>Investor rotation   </li>
+                        <li>Terms   of  services</li>
+                    </ul>
+                </div>
+                <div class="footer-list">
+                    <h4>Follow  Us</h4>
+                    <ul>
+                        <li>let us  be  social</li>
+                        <li><span><img   src="images/icons/social-1.jpg"></span>
+                            <span><img   src="images/icons/social-2.jpg"></span>
+                            <span><img   src="images/icons/social-3.jpg"></span>
+                            <span><img   src="images/icons/social-4.jpg"></span>
+                        </li>
+                        
+                </div>
+                <div class="footer-list">
+                    <h4>NewsLetter</h4>
+                    <ul>
+                        <li>Stay update  with    our latest</li>
+                        <li><input type="email" placeholder="Enter  Email"   ></li>
+                   
+                    </ul>
+                </div>
+              
+            </div>
+         
+        </footer>
+ -->

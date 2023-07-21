@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pets Shop</title>
+
+</head>
+<body>
+    <nav  id="navbar">
+        <div class="container">
+<h2><img src="images/Logo.png" alt="">pets  shop</h2>
+<div class="nav-links">
+    <a href="home.html" class="active">Home</a>
+    <a href="about.html">About</a>
+    <a href="#">Serices</a>
+    <a href="#">Pricing</a>
+    <a href="contact.html">Contact</a>
+</div>
+        </div>
+        </nav>
+
+        <!-- -------------form------------------ -->
+
+<span  class="top"><i class="fa-solid fa-arrow-up"></i></span>
+
+<div id="container">
+    <form id="form"   onsubmit="validate()"  class="form">
+      <h2>Contact With Us</h2>
+      <div class="form-control">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Enter username"   required />
+        <!-- <p id="errorMessage"    hidden></p> -->
+      </div>
+      <div class="form-control">
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="Enter email" required/>
+        <!-- <p id="errorMessage"  hidden  ></p> -->
+      </div>
+      <div class="form-control">
+        <label for="#password">Password</label>
+        
+        <input type="password" id="password" placeholder="Enter password" required/>
+        <!-- <p id="errorMessage"    hidden></p> -->
+      </div>
+      <p id="errorMessage"    hidden></p>
+
+      <button>Submit</button>
+    </form>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- <body onload='document.form1.text1.focus()'>
+            <div class="mail">
+            <h2>Input Password and Submit [6 to 20 characters which contain at least one numeric digit, one uppercase and one lowercase letter]</h2>
+            <form name="form1" action="#">
+            <ul>
+                <label for="">password:</label>
+            <li style="display: inline;"><input type='text' name='text1'/></li>
+            <li class="rq">*Enter numbers only.</li>
+            <li>&nbsp;</li>
+            <label for="">mail:</label>
+            <li style="display: inline;"><input type='text' name='text2'/></li>
+            <li class="rq">*Enter  your email.</li>
+            <li>&nbsp;</li>
+            <li class="submit"><input type="submit" name="submit" value="Submit" onclick="CheckMail(document.form1.text2)"/></li>
+            <li>&nbsp;</li>
+            </ul>
+
+            </form>
+            </div>
+
+
+
+        <div id="contact">
+            <div class="form-content">
+            <h1>Fill out your info   </h1>
+            
+            <form action="#" method="get">
+                <table>
+                    <tr>
+                        <td><label for="#fname">Firstname</label></td>
+                        <td><input  id="fname"  name="fname" type="text"     pattern="[a-zA-Z0-9]+" minlength="4" maxlength="10"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="#pass">password</label></td>
+                        <td><input  id="pass" required name="lname" type="password"></td>
+                        <div id="pass-valid"></div>
+                    </tr>
+                    <tr>
+                        <td><label for="#mail">email</label></td>
+                        <td><input  id="mail"   required  name="mail" type=""></td>
+                        <div id="mail-valid"></div>
+                    </tr>
+                   
+                        <tr>
+                            <td><input type="submit"    id="submit"></td>
+                        </tr>
+                </table>
+            </form>
+        </div>
+</div> -->
+
+        <!-- -----------footer---------------- -->
+<footer id="footer1">
+    <div class="list1">
+        <h2>get in  touch</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sequi praesentium et quos pariatur ab!</p>
+                    <i class="fa-solid fa-location-dot"><span>123,Street,Cairo,Egypt</span></i>
+                    <i class="fa-regular fa-envelope"><span>hagar@gmail.com</span></i>
+                    <i class="fa-solid fa-phone"><span>+01012469861</span></i>
+                </div>
+                    <div class="list2">
+                        <h2>quick   links</h2>
+                        <a  href="#"><i class="fa-solid fa-right-long"></i>   home</a>
+                        <a  href="#">   <i class="fa-solid fa-right-long"></i>Blog</a>
+                        <a  href="#"> <i class="fa-solid fa-right-long"></i>  Contact us   </a>
+                        <a  href="#">  <i class="fa-solid fa-right-long"></i> About us </a>
+                        <a  href="#">  <i class="fa-solid fa-right-long"></i> About us </a>
+                        <a  href="#">  <i class="fa-solid fa-right-long"></i> About us </a>
+                    </div>
+                    <div class="list3">
+                        <h2>newsletter</h2>
+                        <input type="email"  placeholder="Your  Email"    name="" id=""><input type="button" value="sign  up">
+                        <h3>FOLLOW US</h3>
+                        
+                          <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                      <i class="fa-brands fa-youtube"></i>
+     </div>
+</footer>
+
+
+
+       
+        <footer id="footer2">
+            &copy;<span>ITI-JS-PROJECT</span>.All Rights  Reserved.
+        </footer>
+<script src="js/index.js"></script>
+</body>
+</html>
